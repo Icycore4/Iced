@@ -4,56 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home - BrandName</title>
+    <title>Home - Icycraft</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
-<body>
+<body class="flex flex-col min-h-screen"> <!-- Key change to make footer stick to the bottom -->
     <!-- Header and Navigation -->
     <header class="bg-white shadow-lg">
         <div class="container mx-auto p-6 flex justify-between items-center">
-            <a href="index.html" class="text-3xl font-bold text-gray-800">BrandName</a>
+            <a href="index.html" class="text-3xl font-bold text-gray-800">Icycraft</a>
             <nav class="space-x-6">
                 <a href="index.html" class="text-lg text-gray-600 hover:text-gray-800">Home</a>
                 <a href="services.html" class="text-lg text-gray-600 hover:text-gray-800">Services</a>
-                <a href="portfolio.html" class="text-lg text-gray-600 hover:text-gray-800">Portfolio</a>
-                <a href="contact.html" class="text-lg text-gray-600 hover:text-gray-800">Contact</a>
+                <a href="portfolio.html" class="text-lg text-gray-600 hover:text-gray-800">Advantages</a>
+                <a href="contact.html" class="text-lg text-gray-600 hover:text-gray-800">Pricing</a>
             </nav>
         </div>
     </header>
 
     <!-- Main Content -->
-    <section class="container mx-auto py-12">
-        <h1 class="text-4xl font-bold text-gray-800 mb-6">Welcome to BrandName</h1>
-        <p class="text-lg text-gray-600 mb-6">We offer top-notch services and showcase an amazing portfolio. Learn more about what we offer below.</p>
+    <section class="container mx-auto py-12 flex-grow"> <!-- Added flex-grow to push footer to the bottom -->
+        <h1 class="text-4xl font-bold text-gray-800 mb-6">Welcome to Icycraft designs</h1>
+        <p class="text-lg text-gray-600 mb-6">We offer top-notch services and showcase unmatched prices. Learn more about what we offer below.</p>
 
         <!-- 3 Blue Rounded Boxes -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Services Box -->
-            <div class="bg-blue-500 rounded-lg p-6 text-white">
+            <div class="bg-indigo-500 rounded-lg p-6 text-white">
                 <h2 class="text-2xl font-bold mb-4">Services</h2>
-                <p class="text-lg">We offer a wide range of services including web development, graphic design, and digital marketing. Let us help you build your brand.</p>
+                <p class="text-lg">We offer a wide range of services including web development, graphic design, and website management. Let us help you build your brand.</p>
             </div>
 
             <!-- Advantages Box -->
-            <div class="bg-blue-500 rounded-lg p-6 text-white">
+            <div class="bg-indigo-500 rounded-lg p-6 text-white">
                 <h2 class="text-2xl font-bold mb-4">Advantages</h2>
-                <p class="text-lg">Working with us means access to skilled professionals, cutting-edge technology, and a commitment to excellence. We focus on delivering results that exceed expectations.</p>
+                <p class="text-lg">Working with us allows for more personalized service, increased flexibility, and access to many different services. As a smaller organization, we focus on delivering the best results.</p>
             </div>
 
-            <!-- Cost Box -->
-            <div class="bg-blue-500 rounded-lg p-6 text-white">
-                <h2 class="text-2xl font-bold mb-4">Cost</h2>
+            <!-- Pricing Box -->
+            <div class="bg-indigo-500 rounded-lg p-6 text-white">
+                <h2 class="text-2xl font-bold mb-4">Pricing</h2>
                 <p class="text-lg">Our prices are competitive and flexible. We offer packages to fit various budgets, ensuring you get the best value for your investment.</p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-gray-400 py-6">
+    <footer class="bg-gray-900 text-gray-400 py-6 mt-12">
         <div class="container mx-auto text-center">
-            <p>Email: <a href="mailto:info@brandname.com" class="text-indigo-500 hover:underline">info@brandname.com</a></p>
-            <p>Phone: <a href="tel:+1234567890" class="text-indigo-500 hover:underline">+1 (234) 567-890</a></p>
-            <p>&copy; 2025 BrandName. All rights reserved.</p>
+            <p>Email: <a href="mailto:icycore2@gmail.com" class="text-indigo-500 hover:underline">Icycore2@gmail.com</a></p>
+            <p>Phone: <a href="tel:+14026894390" class="text-indigo-500 hover:underline">+1 (402) 689-4390</a></p>
         </div>
     </footer>
 </body>
